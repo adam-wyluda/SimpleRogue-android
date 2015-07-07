@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+            android:key="font_size"
+            android:title="@string/pref_title_font_size"
+            android:entries="@array/pref_font_values"
+            android:entryValues="@array/pref_font_values"
+            android:defaultValue="24"/>
+
+    <CheckBoxPreference
+            android:key="font_antialiasing"
+            android:title="@string/pref_title_font_antialiasing"
+            android:defaultValue="true"/>
+
+</PreferenceScreen>

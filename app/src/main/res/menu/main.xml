@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="simplerogue.android.activity.MainActivity" >
+
+    <item android:id="@+id/action_settings"
+          android:title="Settings"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom"
+          android:icon="@android:drawable/ic_menu_preferences"/>
+
+</menu>

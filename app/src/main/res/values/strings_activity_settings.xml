@@ -1,0 +1,21 @@
+<resources>
+        <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_font_size">Font size</string>
+    <string-array name="pref_font_values">
+        <item>9</item>
+        <item>12</item>
+        <item>15</item>
+        <item>18</item>
+        <item>21</item>
+        <item>24</item>
+        <item>27</item>
+    </string-array>
+
+    <string name="pref_title_font_antialiasing">Anti-aliasing</string>
+</resources>
